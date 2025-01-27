@@ -115,7 +115,7 @@ Viewing the page
 ================
 
 You can upload these files to any standard HTML server that you or your organisation hosts.
-Alternatively, you can download the files locally and run `./localserver.sh`
+Alternatively, you can download the files locally and run `./localserver.sh` if you have a BASH-based terminal (this just uses a Python command, you can do it on any terminal with `python3 -m http.server 8000` instead)
 This will run a local server with port 8000 and open up the webpage in your default browser automatically (probably in an existing window).
 You can also go to the page manually at `http://localhost:8000`
 If the port is already in use somewhere, just change the value in `localserver.sh` and the web link. 
